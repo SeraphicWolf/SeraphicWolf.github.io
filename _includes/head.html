@@ -5,13 +5,7 @@
 {% endif %}
 
 <head>
-  ...
-<script type="text/javascript" src="{{ "/js/main.js" | prepend: site.baseurl | prepend: site.url }}"></script>
-...
-
-  ...
-<link rel="manifest" href="{{ "/manifest.json" | prepend: site.baseurl | prepend: site.url }}" />
-...
+<link rel="manifest" href="manifest.json">
   <title>{{ title }}</title>
   {% include google_analytics.html %}
   <meta charset="utf-8">
