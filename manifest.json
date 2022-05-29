@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
   "name": "Nulls Blog",
   "short_name": "NullBlog",
   "start_url": "/",
