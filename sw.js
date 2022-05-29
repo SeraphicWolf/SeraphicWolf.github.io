@@ -31,7 +31,7 @@ workbox.precaching.precacheAndRoute([
   {% for post in site.posts limit:12 -%}
   { url: '{{ post.url }}', revision: '{{ post.date | date: "%Y-%m-%d"}}' },
   {% endfor -%}
-  { url: '/', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' },
+  { url: 'https://seraphicwolf.github.io/', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' },
   { url: '/aboutme', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' },
   { url: '/404', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' },
   { url: '/assets/css/index.css', revision: '{{ site.time | date: "%Y%m%d%H%M" }}' }
