@@ -1,13 +1,15 @@
-# frozen_string_literal: true
+source 'https://rubygems.org'
 
-source "https://rubygems.org"
-
-git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
-
-# gem "rails"
-
-gem "webrick", "~> 1.7"
-
-gem "github-pages", "~> 219"
-
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+group :jekyll_plugins do
+  gem 'jekyll'
+  gem 'jekyll-paginate'
+  gem 'jekyll-gist'
+  gem 'jekyll-assets', '~> 2.3.2'
+  gem 'jekyll-watch'
+  gem 'jekyll_pages_api', :git => "https://github.com/18F/jekyll_pages_api"
+  gem 'jekyll-react'
+  gem 'uglifier'
+  gem 'sass'
+  gem 'kramdown'
+  gem 'rouge'
+end
