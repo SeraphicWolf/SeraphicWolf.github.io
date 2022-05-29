@@ -31,8 +31,8 @@ plugins:
 
 pwa:
   enabled: false # Optional
-  sw_src_filepath: service-worker.js # Optional
-  sw_dest_filename: service-worker.js # Optional
+  sw_src_filepath: sw.js # Optional
+  sw_dest_filename: sw.js # Optional
   dest_js_directory: assets/js # Required
   precache_recent_posts_num: 5 # Optional
   precache_glob_directory: / # Optional
