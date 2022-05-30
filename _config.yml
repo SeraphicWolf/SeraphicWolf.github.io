@@ -1,23 +1,66 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-title: Hemang Kumar
-email: hemangsk@gmail.com
+title: Project Site #Your awesome title
+email: #youremail@domain.com
+description: > # this means to ignore newlines until "baseurl"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
-#write html inside the double quotes to display in jumbotron
-description: "<h3>Hello, world!</h3><h1>DevJournal</h1><h3>Awesome Jekyll Theme for Developers!</h3>Hope you like it!"
+baseurl: # the subpath of the site
+url: https://github.com/SeraphicWolf/SeraphicWolf.github.io # the base hostname & protocol for your site
 
+permalink: /:year-:month/:title
+timezone:
 
+favicon: /assets/img/favicon.ico
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://hemangsk.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+google_analytics: #UA—XXXXXXXX-X
+disqus_shortname: #disqus shortname
+cusdis:
+    app_id: #your cusdis app_id
 
-# Build settings
+user:
+  name: SeraphicWolf
+  pic: /assets/img/cat.jpg
+  picAlt: "catbook"
+  job: A person who love creating
+  aboutme: true # comment this out if you don't need the 'about' page.
+
+plugins:
+- jekyll-pwa-plugin
+
+pwa:
+  enabled: false # Optional
+  sw_src_filepath: sw.js # Optional
+  sw_dest_filename: sw.js # Optional
+  dest_js_directory: assets/js # Required
+  precache_recent_posts_num: 5 # Optional
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
+    - index.html
+  precache_glob_ignores: # Optional
+    - sw-register.js
+    - "fonts/**/*"
+
+exclude:
+  - README.md
+  - LICENSE
+  - github
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comment: true
+
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false

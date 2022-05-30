@@ -1,89 +1,35 @@
-If there's any issue you are facing in setting up DevJournal theme, I'm there for you. Just create an issue in this repository (http://github.com/hemangsk/DevJournal), (https://help.github.com/articles/creating-an-issue/) and I'll get back to you asap. :smile: :+1:<br>
+# Catbook
+CATbook is a CATegory-centric Jekyll theme for bloggers. There is a switch button to toggle between dark mode and light mode. This theme is originally inspired from [Book](https://github.com/kkninjae/book).
 
-![alt-tag](https://farm8.staticflickr.com/7062/26385542743_1c7e6b8d9e_o.png) 
+[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![GENERATOR](https://img.shields.io/badge/made_with-jekyll-blue.svg) ![VERSION](https://img.shields.io/badge/current_version-1.0-green.svg)
 
-![alt-tag](https://farm8.staticflickr.com/7320/26385629583_eac6861c48_o.png)
+**Demo:** https://starry99.github.io/catbook/
 
+![SCREENSHOT](https://starry99.github.io/catbook/assets/img/lmode.jpg)
+![SCREENSHOT](https://starry99.github.io/catbook/assets/img/dmode.jpg)
 
-![alt-tag](https://farm8.staticflickr.com/7300/26895705412_d6365b9a14_o.png)
+## Setup
 
+```sh
+$ git clone https://github.com/starry99/catbook
+$ jekyll serve
 
-
-![alt-tag](https://farm8.staticflickr.com/7370/26956762406_cbfa7a2139_o.png)
-
-#### To create a new post :sunglasses:
-
-- Create a .markdown file inside _posts folder.
-- Name the file according to the standard jekyll format.
+# Now you can start customization!
 ```
-   2016-03-30-i-love-design.markdown
+
+## Make it yours
+
+If you want to create a new category, you need to create `*name*.html` in the `categories` folder. And add the following content:
+```html
+---
+layout: page
+type: *name*
+---
+
+{% include archive.html %}
 ```
-- Write the Front Matter and content in the file.
-    ```
-          ---
-          layout: post | default | page
-          title:  String Post Title
-          date:   Time Stamp
-          categories: String | Array of Strings Category / Categories 
-          ---
-    ```
-    
-    ```
-        ---
-        layout: post
-        title:  "The One with the Blackout"
-        date:   2016-03-30 19:45:31 +0530
-        categories: ["life", "friends"]
-        ---
-    ```  
+Then the number of pages in the category will be displayed.
 
+## License
 
-![alt-tag](https://farm8.staticflickr.com/7660/26895189602_170af0a783_o.png)
-![alt-tag](https://farm8.staticflickr.com/7594/26385450183_37116c6d32_o.png)
-
-
-#### Create new pages, such a breeze! :smile:
-- Create a .md file in the root directory.
-- Name the file with the desired page link name.
-```
-   about.md
-```
-```
-   design.md
-```
-- Write the Front Matter and content in the file.
-```
-          ---
-          layout: page
-          title: String Title of the webpage
-          permalink: / String / Permalink for the webpage
-          tagline: String Optional DevJournal Feature : Tagline for the page
-          ---
-```      
-```
-        ---
-        layout: page
-        title:  "Science"
-        permalink:   /science/
-        tagline : "Humanity is overrated."
-        ---
-```      
-
-![alt-tag](https://farm8.staticflickr.com/7124/26895188812_65218d8652_o.png)
-
-
-That's all folks.
-
->Super Flexible, Minimal, Text Based jekyll theme for the kickass geek :sunglasses:
-
-#### It'd be really awesome if ,<br>
-1.  You wish to create some new feature and would like to integrate those in DevJournal. Pull requests are most welcome!
-2.  Consider opening issues if you find bugs or feature requests.
-
-Just so you know, the license type is MIT.
-
-
->Its' all about being community driven.  :bus: :bus: :dash:
-
-Have a great day!  :smile: :smile: :smiley:
-
+[MIT License](https://opensource.org/licenses/MIT)

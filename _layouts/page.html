@@ -1,14 +1,24 @@
----
-layout: default
----
-<div class="jumbotron">
-<div class="container">
-  <h1 class="post-title-main" itemprop="name headline">{{ page.title }}</h1>
-<center>  <h4 class="post-title-main" itemprop="name headline">{{ page.tagline}}</h4></center>
-</div>
-</div>
+<!DOCTYPE html>
+<html>
 
-<div class="container page-stuff">
+{% include head.html %}
 
-  {{ content }}
-</div>
+<body>
+  <div class="content">
+
+    {% include header.html %}
+
+    {% include mobile_menu.html %}
+    
+    <main class="main">
+
+    {{ content }}
+
+    </main>
+
+  </div>
+
+  {% include footer.html %}
+  {% include js.html %}
+</body>
+</html>
