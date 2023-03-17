@@ -57,14 +57,6 @@ if ("serviceWorker" in navigator) {
   // register service worker
   navigator.serviceWorker.register("sw.js");
   navigator.serviceWorker && navigator.serviceWorker.register(‘./sw.js’).then(function(registration) {  console.log(‘Excellent, registered with scope: ‘, registration.scope);});
-=======
-  new CacheFirst(),
-  
-  (if ("serviceWorker" in navigator) {
-    // register service worker
-    navigator.serviceWorker.register("sw.js");
-    navigator.serviceWorker && navigator.serviceWorker.register(‘./sw.js’).then(function(registration) {  console.log(‘Excellent, registered with scope: ‘, registration.scope);});
->>>>>>> main
   }
 );
 
