@@ -21,7 +21,7 @@ cusdis:
 
 user:
   name: SeraphicWolf
-  pic: /assets/img/cat.jpg
+  pic: /assets/img/pfp.png
   picAlt: "catbook"
   job: A person who love creating
   aboutme: true # comment this out if you don't need the 'about' page.
@@ -30,7 +30,7 @@ plugins:
 - jekyll-pwa-plugin
 
 pwa:
-  enabled: false # Optional
+  enabled: true # Optional
   sw_src_filepath: sw.js # Optional
   sw_dest_filename: sw.js # Optional
   dest_js_directory: assets/js # Required
