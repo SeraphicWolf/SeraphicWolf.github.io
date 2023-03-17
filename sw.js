@@ -49,7 +49,7 @@ registerRoute(
 registerRoute(
   /assets\/(images|icons|css)/,
   new CacheFirst())
-  }}
+  }
 );
 
 if ("serviceWorker" in navigator) {
