@@ -48,7 +48,7 @@ registerRoute(
 
 registerRoute(
   /assets\/(images|icons|css)/,
-  new CacheFirst()
+  new CacheFirst())
   }
 );
 
