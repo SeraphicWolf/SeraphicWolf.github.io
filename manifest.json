@@ -3,7 +3,7 @@
     "name": "Nulls Blog",
     "short_name": "NullBlog",
     "start_url": "index.html",
-    "scope": "index.html",
+    "scope": "./",
     "display": "standalone",
     "background_color": "#2A3443",
     "description": "A demo app for a fictional conference",
