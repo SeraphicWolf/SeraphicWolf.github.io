@@ -50,9 +50,9 @@ registerRoute(
   /assets\/(images|icons|css)/,
   new CacheFirst(),
   
-  if ("serviceWorker" in navigator) {
+  (if ("serviceWorker" in navigator) {
     // register service worker
-    navigator.serviceWorker.register("service-worker.js");
+    navigator.serviceWorker.register("sw.js");
     navigator.serviceWorker && navigator.serviceWorker.register(‘./sw.js’).then(function(registration) {  console.log(‘Excellent, registered with scope: ‘, registration.scope);});
   }
 );
