@@ -48,5 +48,11 @@ registerRoute(
 
 registerRoute(
   /assets\/(images|icons|css)/,
-  new CacheFirst()
+  new CacheFirst(),
+  
+  if ("serviceWorker" in navigator) {
+    // register service worker
+    navigator.serviceWorker.register("service-worker.js");
+  }
 );
+
