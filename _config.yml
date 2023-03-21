@@ -23,7 +23,7 @@ user:
   name: SeraphicWolf
   pic: /assets/img/pfp.png
   picAlt: "catbook"
-  job: A person who love creating
+  job: A person who love's creating
   aboutme: true # comment this out if you don't need the 'about' page.
 
 plugins:
