@@ -17,3 +17,6 @@ If anyone needs help or has any ideas for the mod, just contact me.
 
 ## CurseForge:
 https://www.curseforge.com/terraria/mods/enchanted-nebula
+
+## Separate Page
+https://seraphicwolf.github.io/EnchantedNebula/
