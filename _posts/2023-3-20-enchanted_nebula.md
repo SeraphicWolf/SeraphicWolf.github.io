@@ -1,5 +1,5 @@
 ---
-title: EnchantedNebula (TMOD 1.4)
+title: EnchantedNebula (TMOD 1.4.3)
 categories:
   - terraria
 comments: true
@@ -14,6 +14,7 @@ If anyone needs help or has any ideas for the mod, just contact me.
 ## Contact:
 <dfn info="vnulll">Discord</dfn>.
 <dfn info="@NullifiedWolf">Twitter</dfn>.
+<dfn info="@vnull.bsky.social">BlueSky</dfn>.
 
 ## CurseForge:
 https://www.curseforge.com/terraria/mods/enchanted-nebula
