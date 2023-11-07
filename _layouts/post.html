@@ -1,37 +1,71 @@
 ---
-layout: page
+layout: default
 ---
 
-<div class="post">
-  <div>
-    {% if page.title %}
-    <p class="post_title">{{ page.title }}</p>
-    {% endif %}
+<!-- Image to hack wechat -->
+<!-- <img src="{{ site.baseurl }}/{{ page.header-img }}" width="0" height="0"> -->
+
+<!-- Post Header -->
+{% include intro-header.html type='post' %}
+
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
+        <!-- Multi-Lingual -->
+        {% if page.multilingual %}
+          {% include multilingual/selector.html %}
+        {% endif %}
+
+        {{ content }}
+
+        <hr style="visibility: hidden;">
+        <ul class="pager">
+          {% if page.previous.url %}
+          <li class="previous">
+            <a
+              href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="{{page.previous.title}}"
+            >
+              Previous<br>
+              <span>{{page.previous.title}}</span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if page.next.url %}
+          <li class="next">
+            <a
+              href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="{{page.next.title}}"
+            >
+              Next<br>
+              <span>{{page.next.title}}</span>
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+        <hr style="visibility: hidden;">
+
+        {% include poem.html %}
+
+        {% if site.comment.provider %}
+          {% include comments.html %}
+        {% endif %}
+      </div>
+
+      <!-- Side Catalog Container -->
+      {% if page.catalog %}
+        {% include catalog.html %}
+      {% endif %}
+    </div>
   </div>
-  <div class="post_data">
-    {% if page.date %}
-    <span class="post_date">{{ page.date | date: "%b %-d, %Y" }}</span>
-    {% endif %}
-    {% if page.categories %}
-    <span class="post_categories">
-      &raquo; {% for cat_name in page.categories %}
-      <a href="{{ site.baseurl }}/categories/{{ cat_name }}">{{ cat_name }}</a>{% if forloop.last == false %},
-      {% endif %}{% endfor %}
-    </span>
-    {% endif %}
-  </div>
-  <div class="post_content">
-    {{ content }}
-  </div>
+</article>
 
-
-  {% if page.comment %}
-  <div class="post_comment">
-
-    {% include disqus.html username = site.disqus.shortname %}
-    {% include cusdis.html %}
-
-  </div>
-  {% endif %}
-
-</div>
+{% include enhancements.html %}

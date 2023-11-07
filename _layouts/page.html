@@ -1,24 +1,20 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-{% include head.html %}
+<!-- Page Header -->
+{% include intro-header.html type='page' %}
 
-<body>
-  <div class="content">
-
-    {% include header.html %}
-
-    {% include mobile_menu.html %}
-    
-    <main class="main">
-
-    {{ content }}
-
-    </main>
-
-  </div>
-
-  {% include footer.html %}
-  {% include js.html %}
-</body>
-</html>
+<!-- Main Content -->
+<div class="container" id="container">
+	<div class="row">
+    <!-- PostList Container -->
+    {% if site.theme_style.post_preview != 'text' %}
+    <div class="postlist-container">
+    {% else %}
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 postlist-container">
+    {% endif %}
+      {{ content }}
+    </div>
+	</div>
+</div>
