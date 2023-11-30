@@ -11,4 +11,4 @@ tags:
 
 ## Paragraph
 
-![Test Images](/img/in-post/2023-11-30/fakemon4_export.pngs)
+![Test Images](/img/in-post/2023-11-30/fakemon4_export.png)
