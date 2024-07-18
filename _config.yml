@@ -47,14 +47,14 @@ collections:
     output: true
   publications:
     output: true
-  projects:
+  projects: true
     output: true
 
 
 # SNS settings
 sns:
   RSS: true
-  github_username: Renovamen
+  github_username: SeraphicWolf
   weibo_username:
   zhihu_username: chao-neng-gui-su
   twitter_username: renovamen_zxh
@@ -116,6 +116,9 @@ menus:
   - title: Archive
     font: fas fa-archive
     url: /archive/
+  - title: Projects
+    font: fas fa-paw
+    url: /projects/
   - title: Links
     font: fas fa-link
     url: /links/
