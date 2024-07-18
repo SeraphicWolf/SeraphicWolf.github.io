@@ -1,5 +1,6 @@
 ---
 title: Enchanted Nebula
+layout: projects
 
 ---
 This is my first Terraria Mod, It's basically a mod with random space themed items (and a few random ones), Im still very new to making mods but im learning enough to make this one!
