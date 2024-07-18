@@ -116,9 +116,6 @@ menus:
   - title: Archive
     font: fas fa-archive
     url: /archive/
-  - title: Projects
-    font: fas fa-paw
-    url: /projects/
   - title: Links
     font: fas fa-link
     url: /links/
