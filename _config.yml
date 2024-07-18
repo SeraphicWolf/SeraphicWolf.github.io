@@ -47,7 +47,7 @@ collections:
     output: true
   publications:
     output: true
-  projects: true
+  projects: 
     output: true
 
 
