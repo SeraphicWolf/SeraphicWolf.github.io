@@ -24,3 +24,6 @@ Posted on 11/05/2024
 - Thanks to Fozzlexou for being an aamazing friend and for Ideas and code help!
 - Gen_Grimmclaw For Beta Testing the addon and datapack with me in multiplayer.
 - Icon drawn by me! VNull
+# Links
+[Modrinth Page](https://modrinth.com/datapack/origins-imp)
+[CurseForge Page](Unknown)
