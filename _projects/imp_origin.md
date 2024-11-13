@@ -11,7 +11,7 @@ Posted on 11/05/2024
 **Have you ever dreamed of living the mischievous life of an Imp in Minecraft? With this addon, step into the role of an Imp and unleash your playful trouble and mischief on the world! Whether you're exploring new lands, crafting unique items, or building impressive bases, your adventures will never be the same.**
 # ✨ Powers! ✨
 1.     Dark Vision: Navigate the darkest caves with ease.
-2.     Fireball: Launch fiery projectiles at will! [10 Second Cooldown]
+2.     Fireball: Launch fiery projectiles at will! [30 Second Cooldown]
 3.     Fire Immunity: As a child of fire, you're completely immune to its effects.
 4.     Fodder/Fragile: You're more delicate, losing three hearts, which makes survival trickier.
 5.     Scamper: Swift and nimble, you're quicker on your feet. [20% Speed Boost]
