@@ -1,6 +1,6 @@
 # Site settings
 title: Vnull's Portfolio
-SEOTitle: Jekyll theme Gungnir
+SEOTitle: Vnull's Blog
 description: Vnull's Blog.
 keyword: "jekyll, theme, blog, blog theme"
 url: "https://vnull.buzz/" # your host, for absolute URL
@@ -126,6 +126,8 @@ comment:
   valine:
     appID: CmlQapaTjQ0J7v6ZVvXIn18n-MdYXbMMI
     appKey: aekTnFy27Q3NuG5R4wmoNbSH
+    region: us
+    avatar: ""
 
     # Gitalk settings
     # https://github.com/gitalk/gitalk
