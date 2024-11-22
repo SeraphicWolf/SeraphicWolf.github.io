@@ -116,7 +116,7 @@ menus:
 
 # Comment settings
 comment:
-  provider: valine # false (default), "disqus", "gitalk", "valine"
+  provider: disqus # false (default), "disqus", "gitalk", "valine"
 
   # Disqus settings
   disqus_username: vnullblog.disqus.com
