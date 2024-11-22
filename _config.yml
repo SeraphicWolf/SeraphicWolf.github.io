@@ -119,7 +119,7 @@ comment:
   provider: disqus # false (default), "disqus", "gitalk", "valine"
 
   # Disqus settings
-  disqus_username: vnullblog.disqus.coms
+  disqus_username: vnullblog.disqus.com
 
   # Valine settings
   # https://valine.js.org/
