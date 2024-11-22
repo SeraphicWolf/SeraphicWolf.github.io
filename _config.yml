@@ -124,8 +124,8 @@ comment:
   # Valine settings
   # https://valine.js.org/
   valine:
-    appID:
-    appKey:
+    appID: CmlQapaTjQ0J7v6ZVvXIn18n-MdYXbMMI
+    appKey: aekTnFy27Q3NuG5R4wmoNbSH
 
     # Gitalk settings
     # https://github.com/gitalk/gitalk
