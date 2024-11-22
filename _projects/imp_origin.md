@@ -26,4 +26,4 @@ Posted on 11/05/2024
 - Icon drawn by me! VNull
 # Links
 [Modrinth Page](https://modrinth.com/datapack/origins-imp)
-[CurseForge Page](Unknown)
+[CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/origins-imp-fabric)
