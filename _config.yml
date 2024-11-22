@@ -132,6 +132,7 @@ comment:
     gitalk:
       clientID: "Ov23li4UM6XBiry9lloU"
       clientSecret: "d1efe90ca5463993aca23061ba49bed80fbbe7b3"
+      id: window.location.pathname
       repo: gitalk-comments
       owner: SeraphicWolf
       admin:
