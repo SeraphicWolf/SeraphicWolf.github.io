@@ -130,8 +130,8 @@ comment:
     # Gitalk settings
     # https://github.com/gitalk/gitalk
     gitalk:
-      clientID: "Ov23liNEWWyN5gWsmBIf"
-      clientSecret: "0034aa6f9b72b4671c8906828e0f39b08272fd86"
+      clientID: Ov23liNEWWyN5gWsmBIf
+      clientSecret: 0034aa6f9b72b4671c8906828e0f39b08272fd86
       repo: SeraphicWolf.github.io
       owner: SeraphicWolf
       admin:
