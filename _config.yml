@@ -116,7 +116,7 @@ menus:
 
 # Comment settings
 comment:
-  provider: disqus # false (default), "disqus", "gitalk", "valine"
+  provider: gitalk # false (default), "disqus", "gitalk", "valine"
 
   # Disqus settings
   disqus_username: vnullblog.disqus.com
@@ -126,6 +126,16 @@ comment:
   valine:
     appID:
     appKey:
+
+    # Gitalk settings
+    # https://github.com/gitalk/gitalk
+    gitalk:
+      clientID: "Ov23li4UM6XBiry9lloU"
+      clientSecret: "d1efe90ca5463993aca23061ba49bed80fbbe7b3"
+      repo: gitalk-comments
+      owner: SeraphicWolf
+      admin:
+        - SeraphicWolf
 
 # Analytics settings
 analytics:
