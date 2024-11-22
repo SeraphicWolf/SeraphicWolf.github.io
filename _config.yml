@@ -132,11 +132,10 @@ comment:
     gitalk:
       clientID: "Ov23li4UM6XBiry9lloU"
       clientSecret: "c239d6696eb44257c2f76cbed7a905f812646111"
-      id: window.location.pathname
-      repo: "SeraphicWolf.github.io"
-      owner: "SeraphicWolf"
+      repo: SeraphicWolf.github.io
+      owner: SeraphicWolf
       admin:
-        - ["SeraphicWolf"]
+        - SeraphicWolf
 
 # Analytics settings
 analytics:
