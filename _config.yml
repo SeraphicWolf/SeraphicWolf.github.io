@@ -131,7 +131,7 @@ comment:
     # https://github.com/gitalk/gitalk
     gitalk:
       clientID: "Ov23li4UM6XBiry9lloU"
-      clientSecret: "d1efe90ca5463993aca23061ba49bed80fbbe7b3"
+      clientSecret: "c239d6696eb44257c2f76cbed7a905f812646111"
       id: window.location.pathname
       repo: "gitalk-comments"
       owner: "SeraphicWolf"
