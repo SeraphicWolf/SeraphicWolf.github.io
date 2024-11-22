@@ -10,13 +10,17 @@
   var disqus_identifier = "{{page.id}}";
   var disqus_url = "{{site.url}}{{page.url}}";
 
-  (function() {
-    var dsq = document.createElement("script"); dsq.type = "text/javascript"; dsq.async = true;
-    dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
-    (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(dsq);
+  (function () {
+    var dsq = document.createElement("script");
+    dsq.type = "text/javascript";
+    dsq.async = true;
+    dsq.src = "//" + disqus_shortname + "vnullblog.disqus.com/embed.js";
+    (
+      document.getElementsByTagName("head")[0] ||
+      document.getElementsByTagName("body")[0]
+    ).appendChild(dsq);
   })();
 </script>
-
 
 {% elsif site.comment.provider == "gitalk" %}
 <!----------------- Gitalk ----------------->
@@ -24,12 +28,10 @@
   <div id="gitalk-container"></div>
 </div>
 
-{%- assign _admin_list = "" -%}
-{%- for _admin in site.comment.gitalk.admin -%}
-{%- assign _admin_list = _admin_list | append: ", '" | append: _admin | append: "'" -%}
-{%- endfor -%}
-{%- assign _last = _admin_list | size | minus: 1 -%}
-{%- assign _admin_list = _admin_list | slice: 2, _last -%}
+{%- assign _admin_list = "" -%} {%- for _admin in site.comment.gitalk.admin -%}
+{%- assign _admin_list = _admin_list | append: ", '" | append: _admin | append:
+"'" -%} {%- endfor -%} {%- assign _last = _admin_list | size | minus: 1 -%} {%-
+assign _admin_list = _admin_list | slice: 2, _last -%}
 
 <script type="text/javascript">
   var gitalk = new Gitalk({
@@ -44,7 +46,6 @@
   gitalk.render("gitalk-container");
 </script>
 
-
 {% elsif site.comment.provider == "valine" %}
 <!----------------- Valine ----------------->
 <div class="comment">
@@ -55,7 +56,7 @@
   new Valine({
     el: "#valine-container",
     appId: "{{site.comment.valine.appID}}",
-    appKey: "{{site.comment.valine.appKey}}"
-  })
+    appKey: "{{site.comment.valine.appKey}}",
+  });
 </script>
 {% endif %}
