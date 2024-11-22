@@ -126,9 +126,9 @@ comment:
   valine:
     appID: CmlQapaTjQ0J7v6ZVvXIn18n-MdYXbMMI
     appKey: aekTnFy27Q3NuG5R4wmoNbSH
-    region: us
+    region: "us"
     avatar: ""
-    lang: en
+    lang: "en"
 
     # Gitalk settings
     # https://github.com/gitalk/gitalk
