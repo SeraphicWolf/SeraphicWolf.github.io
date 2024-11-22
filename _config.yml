@@ -15,7 +15,7 @@ repository_branch: main
 theme_style:
   highlight: # "dark" (default), "light"
   alert: # "flat" (default), "modern"
-  post_preview:# "image" (default), "text"
+  post_preview:# "image" (default), "text":
     # display post's featured image on homepage or not
 
 # Markdown enhancements settings
@@ -23,7 +23,7 @@ math:
   enable:
     true # false (default), true
     # math rendering for all posts and keynotes
-  engine:# "katex" (default), "mathjax"
+  engine:# "katex" (default), "mathjax":
     # only make sense when `math.engine: true`
 chart: true # false (default), true
 mermaid: true # false (default), true
@@ -32,7 +32,7 @@ emoji-plus: true # false (default), true
 # CDN settings
 cdn:
   source: # "jsdelivr" (default), "bootcdn", "unpkg", "cdnjs"
-  enable:# false (default), true
+  enable:# false (default), true:
     # optimizing asset files via jsDelivr or not
 
 # Publish posts or collection documents with a future date.
@@ -116,21 +116,10 @@ menus:
 
 # Comment settings
 comment:
-  provider: gitalk # false (default), "disqus", "gitalk", "valine"
+  provider: disqus # false (default), "disqus", "gitalk", "valine"
 
   # Disqus settings
-  disqus_username: renovamen
-
-  # Gitalk settings
-  # https://github.com/gitalk/gitalk
-  gitalk:
-    clientID: "faf464da633b08ff5317"
-    clientSecret: "402324fc860894e5fcba6320fddbddd1ec7f5644"
-    repo: gitalk-comments
-    owner: This-is-an-Apple
-    admin:
-      - Renovamen
-      - This-is-an-Apple
+  disqus_username: VNull
 
   # Valine settings
   # https://valine.js.org/
