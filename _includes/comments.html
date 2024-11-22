@@ -39,9 +39,9 @@ assign _admin_list = _admin_list | slice: 2, _last -%}
     clientSecret: "{{ site.comment.gitalk.clientSecret }}",
     repo: "{{ site.comment.gitalk.repo }}",
     owner: "{{ site.comment.gitalk.owner }}",
-    admin: [{{ _admin_list }}],
+    admin: "[{{ _admin_list }}]",
     id: md5(location.pathname),
-    distractionFreeMode: false
+    distractionFreeMode: false,
   });
   gitalk.render("gitalk-container");
 </script>
