@@ -128,6 +128,7 @@ comment:
     appKey: aekTnFy27Q3NuG5R4wmoNbSH
     region: us
     avatar: ""
+    lang: en
 
     # Gitalk settings
     # https://github.com/gitalk/gitalk
