@@ -14,4 +14,4 @@ Honestly thank you all so much for the support, I apreciate it alot.
 I worked hard on this mod and it took me awhile to do. but other then that i am glad people
 seem to be enjoying it.
 
-![Thank you!](/img/in-post/2024-11-22/wow2.png)
+![Thank you!](/img/in-post/2024-11-25/wow2.png)
